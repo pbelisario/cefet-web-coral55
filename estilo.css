@@ -1,2 +1,126 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-image: linear-gradient(to bottom, #f6f1b2, #4599b2);
+}
+
+#recipiente {
+    width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+#ticket {
+    top: 275px;
+    left: -120px;
+    position: fixed;
+    overflow: hidden;
+    transition: left 100ms ease-out;
+}
+
+#ticket:hover {
+    left: -30px;
+}
+
+#siri {
+    position: relative;
+    top: 7px;
+    left: -10px;
+}
+
+#peixe-bolhas {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    text-align: right;
+    margin: 0px;
+}
+
+
+#bolhas {
+    margin-right: 20px;
+    margin-bottom: 14px;
+}
+
+#peixe {
+    margin-left: -44px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 154px;
+    border: 1px solid #aac0ae;
+    width: 646px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block-end: 2em;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+header {
+    margin-top: 17px;
+    justify-content: flex-start;
+    text-align: right;
+    margin-right: 50px;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 154px;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    margin-right: 15px;
+    margin-top: 46px;
+    margin-bottom: 25px;
+    text-align: right;
+}
+
+h1 {
+    font-family:"Ravie";
+    size: 36px;
+    color: #e90c0c
+}
+
+h2 {
+    font-size: 48px;
+    color:  #333;
+}
+
+h2.cardapio {
+    transform: rotate(-90deg);
+}
+
+h2.subtitle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color:  #333;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+span.acai {
+    color: #d027aa;
+}
